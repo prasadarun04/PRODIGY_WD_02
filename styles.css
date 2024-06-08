@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c33; /* Dark blue */
+    background-image: radial-gradient(#090929, #0c0c33); /* Gradient for galaxy effect */
+    font-family: Arial, sans-serif;
+  }
+  
+  .stopwatch {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  #display {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+  }
+  
+  button:active {
+    background-color: #218c5e; /* Even darker green when active */
+  }
+  
+  #laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #laps li {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
